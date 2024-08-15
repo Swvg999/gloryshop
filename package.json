@@ -1,0 +1,20 @@
+{
+  "name": "pavki4",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swvg999/gloryshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Swvg999/gloryshop/issues"
+  },
+  "homepage": "https://github.com/Swvg999/gloryshop#readme",
+  "description": ""
+}
