@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e5e5e5;
+}
+header {
+    background-color: #ffffff;
+    color: #000;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0 1.47px 11.04px rgba(0, 0, 0, .2)
+    
+}
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}   
+.firstBlank {
+    background-color: #f4f4f4;
+    height: 405px; /* Example height, adjust as needed */
+    width: 711px; /* Make the rectangle span the full width of its container */
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    position: relative; /* To position child elements if needed */
+    border-radius: 15px;
+    box-shadow: 0 1.47px 11.04px rgba(0,0,0,.2)!important;
+
+}
+
+.mainInfo {
+    position: absolute; /* Позволяет точно позиционировать блок внутри firstBlank */
+    top: 60px; /* Отступ сверху */
+    right: 80px; /* Отступ справа */
+    width: 200px; /* Ширина блока с текстом, можно подогнать под нужный размер */
+    padding: 30px; /* Внутренние отступы для лучшего внешнего вида */
+    text-decoration-thickness: 5px;
+}
+
+
+.mainInfo p {
+    margin-bottom: 70px; /* Отступ снизу для каждого параграфа */
+    line-height: 1.5; /* Интерлиньяж для лучшей читаемости текста */
+}
+
+.firstBlank h2 {
+    position: absolute;
+    top: 0; /* Закрепляем заголовок к верхней части контейнера */
+    left: 0; /* Заголовок растягивается на всю ширину */
+    right: 0;
+    height: 20px; /* Высота заголовка, можно подогнать под ваши нужды */
+    margin: 0;
+    padding: 20px; /* Внутренние отступы */
+    background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон */
+    border-radius: 15px 15px 0 0; /* Закругленные верхние углы */
+    font-size: 18px;
+    color: #333;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    text-align: center; /* Центрируем текст */
+    display: flex;
+    align-items: center; /* Вертикальное выравнивание текста */
+    justify-content: center; /* Горизонтальное выравнивание текста */
+    z-index: 1;
+}
+.firstPhoto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%; /* Изображение занимает левую половину блока */
+    height: 100%;
+    background-image: url(../images/outfit1.jpg);
+    background-size: contain;
+    background-position: left top;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    z-index: 2;
+    overflow: hidden;
+}
